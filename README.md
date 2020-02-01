@@ -24,3 +24,5 @@ be able to refer to them later on.
 - run `npm run server` in your terminal to only start up the server without the front-end React server launching
 
 With this you should have the web app running on localhost:3000
+
+Recommended Database: PostgreSQL
