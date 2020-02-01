@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
     "start":"cd server; npm i; node bin/www",
     "client": "npm start --prefix client",
     "server": "nodemon server.js",

@@ -12,24 +12,15 @@ be able to refer to them later on.
 - [`mtlynch3`](https://github.com/mtlynch3), Lynch, Melissa
 - [`iambcho`](https://github.com/iambcho), Cho, Brittany
 
-## To Test Locally
-If you wish to manipulate or run this application locally please donwload the files.
-First downlad all necessary packages by running the code below, it may take some time to install
-```
-npm install
-cd server
-npm install
-cd ../client
-npm install
-```
-then to run the application you need to open two terminals in the first terminal be sure to be in 
-the root directory and run:
-```
-npm start
-```
-Then do the same command but in the client side as well:
-```
-cd client
-npm start
-```
+# Getting Started
+- run  `npm run client-install` to install all dependencies for front-end
+- run  `npm run server-install` to install all dependencies for back-end
+
+# Contributing to DEVELOPMENT
+- To simultaneously run backend and front end, execute this script in your terminal: `npm run dev`    
+## Front-End only 
+- run `npm run client` in your terminal to start the React server without the backend
+## Back-End only 
+- run `npm run server` in your terminal to only start up the server without the front-end React server launching
+
 With this you should have the web app running on localhost:3000
